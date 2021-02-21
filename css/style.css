@@ -1,0 +1,30 @@
+/* Preloader: */
+.preloader {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #fed307;
+    z-index: 1000;
+}
+
+.hidePreloader {
+transition: all 5s;
+z-index: -1000;
+}
+
+/* End Preloader */
+
+.app{
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.gif-section {
+    background: #ffffff;
+}

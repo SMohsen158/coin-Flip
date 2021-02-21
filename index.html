@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<!-- preloade: -->
+
+<article class="preloader d-flex flex-column justify-content-center align-items-center">
+
+    <p class="h1 text-white font-weight-bold text-center mt-md-5">شیر یا خط ؟</p>
+    <img src="Gif/CFlip-load.gif" alt="preloader" class="img-fluid">
+    <p class="h5 text-white font-weight-bold text-center d-md-none">...درحال بارگزاری</p>
+
+</article>
+
+<!-- End preloade -->
+
+<body>
+
+    <div class="app">
+
+        <!-- header: -->
+
+        <header class="header my-3">
+            <p class="h3 text-center">! شانس خودت رو امتحان کن</p>
+        </header>
+
+        <!-- End header -->
+
+        <!-- main: -->
+
+        <main>
+
+            <!-- gif section: -->
+
+            <section class="gif-section row my-3">
+
+                <img src="Gif/CFlip-3.gif" alt="" class="d-none d-md-block col-md-4" height="300">
+
+                <video src="Gif/CFlip-video.mp4" id="FlipGif" height="400" class="gif-section-video col-md-4">
+                </video>
+
+                <img src="Gif/CFlip-3.gif" alt="" class="d-none d-md-block col-md-4" height="300">
+
+            </section>
+
+            <!-- End gif section -->
+
+            <!-- btn section: -->
+
+            <section class="btn-section">
+
+                <div class="myBtn text-center">
+
+                    <button class="btn btn-primary px-5 play" id="Up-btn">شیر</button>
+                    <button class="btn btn-danger px-5 play" id="Down-btn">خط</button>
+
+                </div>
+
+            </section>
+
+            <p id="message" class="text-center my-3"></p>
+
+            <!-- End btn section -->
+
+        </main>
+
+        <!-- End main -->
+
+    </div>
+
+</body>
+
+<!-- scripts: -->
+<script src="js/scripts.js"></script>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+</html>
